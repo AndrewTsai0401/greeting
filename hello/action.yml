@@ -1,0 +1,9 @@
+inputs:
+  name:
+    description: "Your name"
+    default: "N/A"
+
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Hello, ${{ inpputs.name }}"
