@@ -6,4 +6,4 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: echo "Hello, ${{ inpputs.name }}"
+    - run: echo "Hello, ${{ inputs.name }}"
